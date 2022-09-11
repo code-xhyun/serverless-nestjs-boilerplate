@@ -23,7 +23,7 @@ export class TypeOrmConfigService implements TypeOrmOptionsFactory {
         database: process.env.MYSQL_DATABASE,
         port: parseInt(process.env.MYSQL_PORT ?? '3306', 10),
         entities: [join(__dirname, '../../modules/**/*.entity.{ts,js}')],
-        // synchronize: true,
+        synchronize: true,
         namingStrategy: new SnakeNamingStrategy(),
         logging: 'all',
       } as TypeOrmModuleOptions;
@@ -32,4 +32,4 @@ export class TypeOrmConfigService implements TypeOrmOptionsFactory {
     return options;
   }
 }
-// entities: [__dirname + '/../entity/**.entity{.ts,.js}'],
+
