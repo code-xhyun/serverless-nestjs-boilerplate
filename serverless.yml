@@ -1,0 +1,50 @@
+#serverless.js
+service: serverless-typescript-nestjs
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  stage: ${opt:stage,'local'}
+  # Environment Variables
+  environment:
+    MYSQL_HOST: ${self:custom.MYSQL_HOST.${self:provider.stage}}
+    MYSQL_USER: ${self:custom.MYSQL_USER.${self:provider.stage}}
+    MYSQL_PASSWORD: ${self:custom.MYSQL_PASSWORD.${self:provider.stage}}
+    MYSQL_DATABASE: ${self:custom.MYSQL_DB.${self:provider.stage}}
+    MYSQL_PORT: ${self:custom.MYSQL_PORT.${self:provider.stage}}
+
+# Custom Variables
+custom:
+  MYSQL_HOST:
+    local: localhost
+  MYSQL_USER:
+    local: root
+  MYSQL_PASSWORD:
+    local: root
+  MYSQL_DB:
+    local: test2
+  MYSQL_PORT:
+    local: '3306'
+package:
+  individually: true
+
+functions:
+  user:
+    handler: src/lambda.handler
+    events:
+      - http:
+          method: any
+          path: /api/user
+          cors: true
+
+  book:
+    handler: src/lambda.handler
+    events:
+      - http:
+          method: any
+          path: /api/book
+          cors: true
