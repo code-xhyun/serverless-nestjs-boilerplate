@@ -1,7 +1,7 @@
 {
   "name": "serverless-typescript-nestjs",
   "version": "1.0.0",
-  "description": "Example how to nestjs using the serverless framework with TypeORM",
+  "description": "serverless-typescript-nestjs boilerplate",
   "keywords": [
     "nestjs",
     "mysql",
@@ -10,7 +10,8 @@
     "serverless",
     "lambda",
     "aws",
-    "typescript"
+    "typescript",
+    "boilerplate"
   ],
   "repository": {
     "type": "git",
