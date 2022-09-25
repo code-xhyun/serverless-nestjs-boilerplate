@@ -1,6 +1,6 @@
 # Serverless-Typescript-Nestjs Boilerplate
 
-A template of 'serverles-typescript-nestjs' best practices to make your 'serverless-server' simple to understand and easy to use.
+A template of 'serverles-nestjs' best practices to make your 'serverless-server' simple to understand and easy to use.
 
 This project tries to provide as much as possible.
 
@@ -21,13 +21,13 @@ This project tries to provide as much as possible.
 Download to your project directory
 
 ```sh
-git clone https://github.com/devShHong/serverless-typescript-nestjs.git
+git clone https://github.com/devShHong/serverless-nestjs-boilerplate.git
 ```
 
 ## Support
 
-Please [open an issue](https://github.com/devShHong/serverless-typescript-nestjs/issues/new) for support.
+Please [open an issue](https://github.com/devShHong/serverless-nestjs-boilerplate/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/devShHong/serverless-typescript-nestjs/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/devShHong/serverless-nestjs-boilerplate/compare/).
