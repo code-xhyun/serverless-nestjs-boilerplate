@@ -26,8 +26,8 @@ git clone https://github.com/devShHong/serverless-nestjs-boilerplate.git
 
 ## Support
 
-Please [open an issue](https://github.com/devShHong/serverless-nestjs-boilerplate/issues/new) for support.
+Please [open an issue](https://github.com/code-xhyun/serverless-nestjs-boilerplate/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/devShHong/serverless-nestjs-boilerplate/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/code-xhyun/serverless-nestjs-boilerplate/compare/).
