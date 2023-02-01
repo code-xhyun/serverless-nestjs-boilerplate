@@ -18,7 +18,7 @@ A template for serverless-nestjs applications, following best practices for a si
 To get started with this project, simply clone the repository:
 
 ```sh
-git clone https://github.com/devShHong/serverless-nestjs-boilerplate.git
+git clone https://github.com/code-xhyun/serverless-nestjs-boilerplate.git
 ```
 
 
